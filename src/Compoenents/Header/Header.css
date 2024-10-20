@@ -1,0 +1,99 @@
+.shipping-offer-banner{
+    background-color: #165315;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.shipping-offer{
+    position: relative;
+    left: 40%;
+}
+
+.call-text{
+    position: relative;
+    left: 60%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em;
+}
+    
+.logo-container{
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0 0 1em;
+}
+    
+.logo-img{
+    width: 60px;
+    height: 61px;
+}
+    
+.logo-name{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    color: #0F4811;
+    padding-left: 0.5em;
+}
+    
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+    
+.nav-list li{
+    padding: 1em;
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+    font-weight: bold;
+}
+    
+.profile-container{
+    display: flex;
+}
+    
+.profile-container .profile{
+    padding-right: 1em;
+}
+    
+.search-container{
+    width: 320px;
+    border-bottom: 1px solid #00000099;
+    display: flex;
+    position: relative;
+    left: 40%;
+}
+
+.search-input{
+width: 370px;
+height: 26px;
+top: 138px;
+left: 498px;
+gap: 0px;
+border: none;
+opacity: 0px;
+outline:none;
+}
+
+.search-icon{
+    width: 32.24px;
+    height: 25px;
+    top: 138px;
+    left: 839px;
+    gap: 0px;
+    opacity: 0px;
+}

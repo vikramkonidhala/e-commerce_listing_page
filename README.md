@@ -2,6 +2,54 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Project Name
+
+**E-Commerce Listing page**
+
+## Project Description
+
+Building the UI for an E-commerce Listing Page based on the provided Figma design. The page should display a list of products, each with options to either view the product or add it to the cart.
+
+## Features
+**Product Listing:** Display a comprehensive list of products with images, names, prices, and ratings.
+
+**View Product:** When a user clicks "View Product," they will be redirected to a custom Thank You page, as there is no dedicated product page.
+
+**Add to Cart:** Upon clicking "Add to Cart," a modal will open as per the provided UI design, allowing users to add items to their shopping cart seamlessly.
+
+## Technical Specifications
+**Frontend Framework:** The project is built using React for creating interactive user interfaces.
+
+**Routing:** Implemented using React Router to handle navigation within the app.
+
+**State Management:** Managed using React's built-in state management capabilities or any other preferred state management library.
+
+**Styling:** Styled using CSS, with the design adhering strictly to the provided Figma specifications.
+
+
+## Getting Started
+
+These instructions will guide you through the process of setting up the project on your local machine for development and testing purposes.
+
+### Prerequisites
+
+Before you begin, make sure you have the following tools installed:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/) (if applicable)
+
+### Installation
+
+Follow these steps to clone and set up the repository:
+
+1. **Clone the repository:**
+
+   Open your terminal and run the following command to clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+
+
 ## Available Scripts
 
 In the project directory, you can run:

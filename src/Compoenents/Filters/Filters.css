@@ -1,0 +1,30 @@
+.filter-section {
+    background-color: #f5fbe9;
+    padding: 20px;
+    width: 25%;
+    height: 500px;
+    border-radius: 10px;
+    margin-right: 15px;
+  }
+  
+  .filter-section h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .clear-all {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 12px;
+    padding-top: 5px;
+  }
+
+  .filter-item{
+    padding: 10px 0;
+  }
+  
+  .filter-toggle {
+    float: right;
+  }
+  

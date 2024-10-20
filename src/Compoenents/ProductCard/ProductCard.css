@@ -1,0 +1,119 @@
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 270px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .product-image {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .view-product-btn {
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    width: 120%;
+    border: 1px solid hsla(0, 0%, 50%, 0.4);
+  }
+  
+  .product-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+  }
+  
+  .product-name {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .product-description {
+    color: #777;
+    font-size: 14px;
+    margin: 8px 0;
+  }
+  
+  .product-rating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .stars {
+    color: #ffb400;
+    margin-right: 8px;
+  }
+  
+  .rating {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .product-pricing {
+    margin: 8px 0;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    color: #777;
+    margin-right: 8px;
+  }
+  
+  .discounted-price {
+    font-size: 18px;
+    color: darkgreen;
+  }
+  
+  .product-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .add-to-cart-btn,
+  .rent-btn {
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+  }
+  
+  .buy-on-rent-btn {
+    background-color: #ffffff;
+    color: darkgreen;
+    border: 1px solid darkgreen;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+}
+  
+.product-card h3 {
+    margin: 10px 0;
+}
+  
+.product-card p {
+    margin: 5px 0;
+}
+  
+.product-card button:hover {
+    background-color: darkgreen;
+}
